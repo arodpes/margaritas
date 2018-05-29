@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+    <title>Margaritas matemáticas</title>
+	<meta charset="utf8">
+    <style>
+            #miLienzo{border:2px solid black;}
+    </style>
+    <script type="text/javascript" src="canvas1.js" ></script>
+</head>
+
+
+<body>
+<h1>Las margaritas matemáticas</h1>
+<h2>P = a Cos(c &#x3B8;) + b</h2>
+<form id="formulario">
+    a=<input type="text" name="a" value="3">
+    b=<input type="text" name="b" value="1">
+    c=<input type="text" name="c" value="3.5"><br/>
+    centro=<input type="text" name="centro" value="250">
+    aumento=<input type="text" name="aumento" value="50">
+    vueltas=<input type="text" name="vueltas" value="4"><br/>
+    puntos=<input type="text" name="puntos" value="100"><br/>   
+    <button type="button" onclick="dibujar()">dibujar</button><br/>
+</form>
+<canvas width="500" height="500" id="miLienzo"></canvas>
+</body>
+</HTML>
