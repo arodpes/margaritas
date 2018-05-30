@@ -1,6 +1,3 @@
-
-
-
 //window.onload=dibujar;
 
 function dibujar(){
